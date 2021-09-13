@@ -1,0 +1,71 @@
+// using System;
+
+// namespace Học_C_
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Random a = new Random();
+//             int b = a.Next(1, 3);
+//             Console.WriteLine("Mời bạn chọn:");
+//             Console.WriteLine("1. Kéo");
+//             Console.WriteLine("2. Búa");
+//             Console.WriteLine("3. Bao");
+//             int n = int.Parse(Console.ReadLine());
+//             switch (n) {
+//                 case 1:
+//                     switch (b) {
+//                         case 1: 
+//                         Console.WriteLine("Máy đã chọn kéo");
+//                         Console.WriteLine("Hòa rồi");
+//                         break;
+//                         case 2: 
+//                         Console.WriteLine("Máy đã chọn búa");
+//                         Console.WriteLine("Bạn thua");
+//                         break;
+//                         case 3: 
+//                         Console.WriteLine("Máy đã chọn bao");
+//                         Console.WriteLine("Bạn thắng");
+//                         break;
+//                     }
+//                     break;
+//                 case 2:
+//                     switch (b) {
+//                         case 1: 
+//                         Console.WriteLine("Máy đã chọn kéo");
+//                         Console.WriteLine("Bạn thắng");
+//                         break;
+//                         case 2: 
+//                         Console.WriteLine("Máy đã chọn búa");
+//                         Console.WriteLine("Hòa rồi");
+//                         break;
+//                         case 3: 
+//                         Console.WriteLine("Máy đã chọn bao");
+//                         Console.WriteLine("Bạn thua");
+//                         break;
+//                     }
+//                     break;
+//                 case 3:
+//                     switch (b) {
+//                         case 1: 
+//                         Console.WriteLine("Máy đã chọn kéo");
+//                         Console.WriteLine("Bạn thua");
+//                         break;
+//                         case 2: 
+//                         Console.WriteLine("Máy đã chọn búa");
+//                         Console.WriteLine("Bạn thắng");
+//                         break;
+//                         case 3: 
+//                         Console.WriteLine("Máy đã chọn bao");
+//                         Console.WriteLine("Hòa rồi");
+//                         break;
+//                     }
+//                     break;
+//                 default:
+//                     Console.WriteLine("Nhap sai roi!");
+//                     break;
+//             }
+//         }
+//     }
+// }
